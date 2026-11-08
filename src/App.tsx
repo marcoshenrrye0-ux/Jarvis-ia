@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Activity, AudioLines, Bot, Check, ChevronRight, Cpu, Globe2, Mic, MicOff, Plus, Send, ShieldCheck, Sparkles, Square, Volume2, VolumeX, Wifi, X } from "lucide-react";
+import { Activity, AudioLines, Bot, Check, ChevronRight, Globe2, Mic, MicOff, Plus, Send, ShieldCheck, Sparkles, Square, Volume2, VolumeX, Wifi, X } from "lucide-react";
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
 type SpeechRecognitionLike = {
